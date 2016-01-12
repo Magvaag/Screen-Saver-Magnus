@@ -1,6 +1,5 @@
 Magnus Screen Saver
 ==================
-[![Download](http://www.scratchforfun.net\Magnus%20Screen%20Saver/download.svg) ](https://github.com/ScratchForFun/Screen-Saver-Magnus/blob/master/ScreenSaver.scr)
 
 Screen Saver I made during 2014!
 
