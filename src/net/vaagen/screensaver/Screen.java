@@ -39,9 +39,11 @@ public class Screen extends JPanel implements Runnable {
 
         g.setColor(Color.WHITE);
         g.setFont(font);
-        g.drawString("UPS:" + UPS, 0, 15);
-        g.drawString("FPS:" + FPS, 0, 30);
-        g.drawString("Words:" + wordList.size(), 0, 60);
+
+        // This is only needed for debugging
+        //g.drawString("UPS:" + UPS, 0, 15);
+        //g.drawString("FPS:" + FPS, 0, 30);
+        //g.drawString("Words:" + wordList.size(), 0, 60);
     }
 
     Random random = new Random();

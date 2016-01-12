@@ -26,6 +26,10 @@ public class Main {
     }
 
     public Main(){
+        // Makes sure the text renders over the entire screen
+        SCREEN_WIDTH = Toolkit.getDefaultToolkit().getScreenSize().width;
+        SCREEN_HEIGHT = Toolkit.getDefaultToolkit().getScreenSize().height;
+
         JFrame frame = new JFrame("Screen Saver -by Magnus Morud Vågen 04/10/2k14");
         frame.setExtendedState(JFrame.MAXIMIZED_BOTH);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
